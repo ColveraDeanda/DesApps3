@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.edu.utng.colvera.unidad1.CalculatorActivity"
+    android:rowCount="5"
+    android:columnCount="4"
+    >
+
+    <EditText
+        android:layout_columnSpan="4"
+        android:id="@+id/edt_text"
+        android:textSize="@dimen/number_size"
+        android:layout_width="match_parent"/>
+
+    <Button android:text="@string/_7"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_7"/>
+
+    <Button android:text="@string/_8"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_8"/>
+
+    <Button android:text="@string/_9"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_9"/>
+
+    <Button android:text="@string/x"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_multi"/>
+
+    <Button android:text="@string/_4"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_4"/>
+
+    <Button android:text="@string/_5"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_5"/>
+
+    <Button android:text="@string/_6"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_6"/>
+
+    <Button android:text="@string/minus"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_rest"/>
+
+    <Button android:text="@string/_1"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_1"/>
+
+    <Button android:text="@string/_2"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_2"/>
+
+    <Button android:text="@string/_3"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_3" />
+
+    <Button android:text="@string/plus"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_plus"/>
+
+    <Button android:text="@string/div"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_div" />
+
+    <Button android:text="@string/_0"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_0"/>
+
+    <Button android:text="@string/_dot"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_dot"/>
+
+    <Button android:text="@string/equals"
+        android:textSize="@dimen/number_size"
+        android:id="@+id/btn_equal"/>
+
+</GridLayout>

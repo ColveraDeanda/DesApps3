@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="number_size">15pt</dimen>
+    <dimen name="margin_left">150px</dimen>
+    <dimen name="margin_right">150px</dimen>
+    <dimen name="margin_left_image">160px</dimen>
+    <dimen name="margin_top">20px</dimen>
+    <dimen name="margin_left_image1">190px</dimen>
+</resources>

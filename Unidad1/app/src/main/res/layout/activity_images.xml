@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.edu.utng.colvera.unidad1.ImagesActivity"
+    >
+
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calculator"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="@dimen/margin_left_image"
+            android:layout_marginTop="@dimen/margin_top"
+            android:id="@+id/imv_start"
+            android:onClick="nextActivity2"
+            />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/form"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="@dimen/margin_left_image1"
+            android:layout_marginTop="@dimen/margin_top"
+            android:id="@+id/imv_start1"
+            android:onClick="nextActivity3"
+            />
+    </TableRow>
+</TableLayout>
