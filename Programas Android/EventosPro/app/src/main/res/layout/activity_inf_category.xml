@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/parroquia1"
+    tools:context="mx.edu.utng.colvera.eventospro.InfCategory">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_image"
+        android:id="@+id/imagen1"
+        android:src="@drawable/fondoindepen"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtgrito"
+        android:text="@string/grito_de_independencia"
+        android:textColor="@color/color_text_white"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="@dimen/text"
+        android:paddingLeft="@dimen/padding_left"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagen1"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_15_de_septiembre"
+        android:id="@+id/fecha"
+        android:textColor="@color/color_text_white"
+        android:textSize="@dimen/text_size"
+        android:paddingLeft="@dimen/padding_left2"
+        android:drawableLeft="@drawable/calendar"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:background="@color/color_sqrt"
+        android:paddingTop="@dimen/padding_top"
+        android:layout_below="@+id/txtgrito" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fecha"
+        android:text="@string/es_un_hecho_hist_rico_que_ocurri_en_m_xico_en_la_madrugada_del_16_de_septiembre_de_1810_el_sacerdote_cat_lico_miguel_hidalgo_y_costilla_toc_la_campana_de_su_iglesia_y_dio_el_pronunciamiento_llamada_a_las_armas_que_desencaden_la_guerra_de_independencia_de_m_xico_esto_sucedi_en_el_estado_de_guanajuato_dentro_del_peque_o_pueblo_de_dolores_ahora_dolores_hidalgo"
+        android:padding="@dimen/padding"
+        android:textColor="@color/color_text_white"
+        android:background="@color/color_sqrt"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

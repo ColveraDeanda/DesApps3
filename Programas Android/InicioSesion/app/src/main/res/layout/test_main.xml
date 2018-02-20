@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:padding="45dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last name"
+        android:textColor="#fff"
+        android:inputType="text"
+        android:textColorHint="#fff"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email address"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="phone"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password      "
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_marginTop="13dp"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#fff"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  (Minimum 6 characters)"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingRight="70dp"
+        android:paddingLeft="70dp"
+        android:textSize="18dp"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:background="@drawable/color_transparent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:textSize="13dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in now"
+        android:textColor="#fff"
+        android:layout_marginTop="2dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+
+
+</LinearLayout>

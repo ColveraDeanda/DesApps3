@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="colum_size">350dp</dimen>
+    <dimen name="name_size">15pt</dimen>
+    <dimen name="spacing">5dp</dimen>
+    <dimen name="vertical">4dp</dimen>
+    <dimen name="width">85pt</dimen>
+    <dimen name="height">70pt</dimen>
+    <dimen name="margin">0dp</dimen>
+    <dimen name="textsize">9pt</dimen>
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="height_image">189dp</dimen>
+    <dimen name="margin_top">140dp</dimen>
+    <dimen name="text">30sp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="text_size">22dp</dimen>
+    <dimen name="padding_left2">10dp</dimen>
+    <dimen name="drawable_padding">10dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="padding">20dp</dimen>
+</resources>

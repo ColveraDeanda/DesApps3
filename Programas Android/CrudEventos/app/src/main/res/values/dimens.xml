@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_tittle">85dp</dimen>
+    <dimen name="size_tittle">23sp</dimen>
+    <dimen name="height">570dp</dimen>
+    <dimen name="text_width">249dp</dimen>
+    <dimen name="width_button_guardar">112dp</dimen>
+    <dimen name="height_button_guardar">54dp</dimen>
+    <dimen name="margin_top_guardar">31dp</dimen>
+    <dimen name="height_description">203dp</dimen>
+    <dimen name="width_button_save">112dp</dimen>
+    <dimen name="height_button_save">54dp</dimen>
+    <dimen name="margin_top_description">13dp</dimen>
+    <dimen name="margin_left_description">12dp</dimen>
+    <dimen name="margin_top_ex">11dp</dimen>
+    <dimen name="margin_top">17dp</dimen>
+    <dimen name="text_size_description">17dp</dimen>
+    <dimen name="margin_left_button">135dp</dimen>
+    <dimen name="margin_left_sp">15pt</dimen>
+    <dimen name="margin_top_sp">21dp</dimen>
+    <dimen name="height_list">230pt</dimen>
+    <dimen name="width_image">50pt</dimen>
+    <dimen name="height_image">50pt</dimen>
+    <dimen name="margin_image">20dp</dimen>
+    <dimen name="margin_linear">4dp</dimen>
+    <dimen name="width_text">100pt</dimen>
+    <dimen name="marginbotton_text">4dp</dimen>
+    <dimen name="text_size_name">9pt</dimen>
+    <dimen name="width_button">98dp</dimen>
+</resources>

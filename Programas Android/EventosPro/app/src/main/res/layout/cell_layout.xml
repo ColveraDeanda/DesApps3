@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="2"
+    >
+
+    <ImageView android:id="@+id/imv_photo"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_margin="@dimen/margin"
+        />
+
+
+
+
+
+</GridLayout>

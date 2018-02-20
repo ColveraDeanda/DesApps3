@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CrudEventos</string>
+    <string name="name">name</string>
+    <string name="crear_eventos">Crear eventos</string>
+    <string name="ingresa_nombre_de_evento">Ingresa nombre de evento</string>
+    <string name="ingresa_fecha">Ingresa fecha</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="ingresa_descripci_n">Ingresa descripción</string>
+    <string name="selecciona_la_im_gen">Selecciona la imágen</string>
+    <string name="examinar">EXAMINAR</string>
+    <string name="descripci_n">DESCRIPCIÓN</string>
+    <string name="agregar">Agregar</string>
+    <string name="update">Update</string>
+    <string name="borrar">Borrar</string>
+</resources>

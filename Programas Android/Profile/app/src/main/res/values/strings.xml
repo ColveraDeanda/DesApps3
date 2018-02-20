@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="ganzo123">ganzo123</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="edit_information">Edit Information</string>
+    <string name="update">Update</string>
+</resources>

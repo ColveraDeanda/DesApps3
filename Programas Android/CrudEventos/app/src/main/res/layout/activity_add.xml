@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.utng.colvera.crudeventos.AddActivity"
+    android:background="@drawable/fondoestatua"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_tittle"
+        android:text="@string/crear_eventos"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="@dimen/size_tittle"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"
+        android:background="@color/color_sqrt"/>
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtfecha"
+        android:layout_alignLeft="@+id/txtdescripcion"
+        android:layout_alignStart="@+id/txtdescripcion"
+        android:ems="10"
+        android:hint="@string/ingresa_nombre_de_evento"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/txtfecha"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtexaminar"
+        android:layout_alignLeft="@+id/txtdescripcion"
+        android:layout_alignStart="@+id/txtdescripcion"
+        android:ems="10"
+        android:hint="@string/ingresa_fecha"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btguardar"
+        android:layout_width="@dimen/width_button_save"
+        android:layout_height="@dimen/height_button_save"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/spn_places"
+        android:layout_marginTop="@dimen/margin_top_guardar"
+        android:text="@string/guardar"
+        android:background="@drawable/color_transparent"
+        android:layout_marginLeft="@dimen/margin_left_button"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/txtdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_description"
+        android:layout_below="@+id/btexaminar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_description"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/ingresa_descripci_n"
+        android:inputType="text"
+        android:layout_marginLeft="@dimen/margin_left_description"
+        />
+
+    <EditText
+        android:id="@+id/txtexaminar"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtdescripcion"
+        android:layout_alignLeft="@+id/txtdescripcion"
+        android:layout_alignStart="@+id/txtdescripcion"
+        android:ems="10"
+        android:hint="@string/selecciona_la_im_gen"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btexaminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtdescripcion"
+        android:layout_alignRight="@+id/txtdescripcion"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="@dimen/margin_top_ex"
+        android:text="@string/examinar"
+        android:background="@drawable/color_transparent"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/btexaminar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="@dimen/text_size_description"
+        android:text="@string/descripci_n"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <Spinner
+        android:id="@+id/spn_places"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_sp"
+        android:layout_below="@+id/txtdescripcion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white">
+    </Spinner>
+
+</RelativeLayout>

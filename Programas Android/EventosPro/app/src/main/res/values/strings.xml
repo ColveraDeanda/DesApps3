@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EventosPro</string>
+    <string name="informacion">Información</string>
+    <string name="parroquia_text">"Parroquia de Nuestra señora de los Dolores" </string>
+    <string name="text_info">La edificación de la Parroquia de Nuestra Señora de Los Dolores se inició el 2 de Febrero de 1712 por disposición del Sr. Cura Lic. Álvaro de Osio y Ocampo y se concluyó en el año de 1778.
+
+Este templo está considerado como uno de los mejores ejemplos del barroco novohíspano del último tercio del siglo XVIII. Son notables la concha que remata al arco de acceso y los tres pares de estípites a los lados de la puerta, principalmente los de los extremos, que incorporan nichos y esculturas en su cuerpo.</string>
+    <string name="lista_lugares">List OF Places</string>
+    <string name="fecha">Fecha</string>
+    <string name="grito_de_independencia">Grito de independencia</string>
+    <string name="_15_de_septiembre">15 de septiembre</string>
+    <string name="es_un_hecho_hist_rico_que_ocurri_en_m_xico_en_la_madrugada_del_16_de_septiembre_de_1810_el_sacerdote_cat_lico_miguel_hidalgo_y_costilla_toc_la_campana_de_su_iglesia_y_dio_el_pronunciamiento_llamada_a_las_armas_que_desencaden_la_guerra_de_independencia_de_m_xico_esto_sucedi_en_el_estado_de_guanajuato_dentro_del_peque_o_pueblo_de_dolores_ahora_dolores_hidalgo">Es un hecho histórico que ocurrió en México en la madrugada del 16 de septiembre de 1810. El sacerdote católico Miguel Hidalgo y Costilla tocó la campana de su iglesia y dio el pronunciamiento ( llamada a las armas) que desencadenó la Guerra de Independencia de México . Esto sucedió en el estado de Guanajuato dentro del pequeño pueblo de Dolores (ahora Dolores Hidalgo ).</string>
+</resources>

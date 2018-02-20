@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height">159dp</dimen>
+    <dimen name="width_image">170dp</dimen>
+    <dimen name="height_image">140dp</dimen>
+    <dimen name="margin_top_image">60dp</dimen>
+    <dimen name="margin_left_image">100dp</dimen>
+    <dimen name="margin_left_button">130dp</dimen>
+    <dimen name="margin_right_button">120dp</dimen>
+    <dimen name="text_top">20dp</dimen>
+    <dimen name="text_left">10dp</dimen>
+    <dimen name="text_size">25dp</dimen>
+    <dimen name="text_top2">15dp</dimen>
+    <dimen name="drawable_padding">10dp</dimen>
+    <dimen name="tezt_size_pass">20dp</dimen>
+    <dimen name="text_size_edit">20dp</dimen>
+    <dimen name="top_update">50dp</dimen>
+</resources>
