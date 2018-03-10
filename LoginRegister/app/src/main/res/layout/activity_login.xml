@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_login"
+    android:background="@drawable/backgroundimage"
+    tools:context=".activities.LoginActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="@dimen/width_image"
+            android:layout_height="@dimen/height_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_top"
+            android:src="@drawable/login" />
+
+      <!--  <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_button"
+            android:layout_marginLeft="@dimen/margin_left_button"
+            android:layout_marginRight="@dimen/margin_right_button"
+            android:layout_gravity="center"
+            android:text="@string/google"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/color_google">
+        </Button> -->
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/padding_bottomf"
+            android:paddingLeft="@dimen/padding_left_f"
+            android:paddingRight="@dimen/padding_right_f"
+            android:layout_marginTop="@dimen/margin_top_f"
+            android:layout_marginLeft="@dimen/margin_left_f"
+            android:paddingTop="@dimen/padding_top_f" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_email">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorText"
+                android:textColor="@color/colorText"
+                android:hint="Correo electrónico"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="@color/white"
+                android:maxLines="1"
+                 />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_password">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/white"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_login"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/left_login"
+            android:layout_marginRight="@dimen/right_login"
+            android:background="@drawable/color_transparent"
+            android:text="@string/login" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewLinkRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_text"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/text_account"
+            android:textSize="@dimen/size_text_account" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.NestedScrollView>
