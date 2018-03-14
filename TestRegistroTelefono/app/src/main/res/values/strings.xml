@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TestRegistroTelefono</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="error_message_name">Introduzca nombre completo</string>
+    <string name="error_message_email">Introduzca correo válido</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Introduzca contraseña</string>
+    <string name="success_message">Registro exitoso</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">El correo ya existe</string>
+    <string name="error_password_match">La contraseña no coincide</string>
+    <string name="error_valid_email_password">Introduzca su correo o contraseña correctamente </string>
+    <string name="facebook_app_id">205684390014940</string>
+    <string name="fb_login_protocol_scheme">fb205684390014940</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="cancel_login">Se canceló la operación</string>
+    <string name="error_login">Ocurrió un error al ingresar</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="text_account">¿No tiene cuenta? Registrarse ahora</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="hello">Hola,</string>
+    <string name="account">¿Ya tiene una cuenta? Iniciar sesión</string>
+    <string name="not_log_in">No se pudo iniciar sesión</string>
+    <string name="log_out">Log Out</string>
+    <string name="revoke">Revoke</string>
+    <string name="not_close_session">No se pudo cerrar sesión</string>
+    <string name="not_revoke">No se pudo revocar el acceso</string>
+    <string name="continues">Continuar sin iniciar sesión</string>
+    <string name="signup">Registrarse</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "821460615294",
+    "firebase_url": "https://loginwith-ca388.firebaseio.com",
+    "project_id": "loginwith-ca388",
+    "storage_bucket": "loginwith-ca388.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821460615294:android:413b2019442e92e5",
+        "android_client_info": {
+          "package_name": "mx.com.utng.colvera.testregistrotelefono"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821460615294-8bb4adkm5st7stdru7arek6jd7rq3ddn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.com.utng.colvera.testregistrotelefono",
+            "certificate_hash": "7b30124293a354a8df77491daeb80ace154060a9"
+          }
+        },
+        {
+          "client_id": "821460615294-l73u19sn7s6j0bh92iumhhld102qr18d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpwUsNY2Mt2oAnI0wrTM2vNNEvbnwa2Dk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821460615294-l73u19sn7s6j0bh92iumhhld102qr18d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
